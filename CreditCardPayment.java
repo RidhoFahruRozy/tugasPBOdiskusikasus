@@ -12,5 +12,6 @@ public class CreditCardPayment extends Payment {
         System.out.println("ID Transaksi  : " + transactionId);
         System.out.println("Total Belanja : Rp " + amount);
         System.out.println("Nomor Kartu   : " + cardNumber);
+        System.out.println("Transaksi berhasil disetujui.");
     }
 }
